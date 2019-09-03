@@ -1,0 +1,39 @@
+@import '../../../../config/variables.scss';
+
+.block-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 0 $main-spacing * 2;
+
+    .title {
+        position: relative;
+        font-size: 1.5rem;
+        margin: $main-spacing auto;
+
+        .fa {
+            margin-right: $main-spacing/2;
+        }
+
+        &::after {
+           content: '';
+           display: block;
+           width: 60px;
+           height: 2px;
+           background: #ddd;
+           margin: 20px auto 0 auto;
+        }
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+
+        .text {
+            width: 75%;
+            text-align: center;
+        }
+    }
+}
