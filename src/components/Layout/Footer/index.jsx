@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Index = () => (
+const Footer = () => (
   <footer>
-            Tutaj są informację w stopce
+    Tutaj są informację w stopce
   </footer>
 );
 
-export default Index;
+export default Footer;
