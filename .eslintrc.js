@@ -21,7 +21,7 @@ module.exports = {
     "rules": {
         "linebreak-style": 0,
         "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
-        "allowIndentationTabs": true,
+        "allowIndentationTabs": 1,
         'react/jsx-indent': 0, // Prettier.
         'react/jsx-indent-props': 0, // Prettier.
     }
