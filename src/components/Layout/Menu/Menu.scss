@@ -1,0 +1,16 @@
+@import "../../../config/variables.scss";
+
+.navigation-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navigation-logo {
+  font-size: 5rem;
+}
+
+.menu-item {
+  text-transform: uppercase;
+  font-weight: 500;
+}

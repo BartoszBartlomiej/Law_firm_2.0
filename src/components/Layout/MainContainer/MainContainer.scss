@@ -1,8 +1,8 @@
 @import '../../../config/variables.scss';
 
-main {
+.main-container {
     background-color: $color-background;
-    padding-top: $main-spacing * 2;
+    padding-top: $main-spacing;
     display: flex;
     flex-direction: column;
     flex: 0 1 100%;
