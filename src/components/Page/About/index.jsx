@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import PageContent from '../../Layout/PageContent';
 
-class Main extends Component {
+class About extends Component {
   render() {
     return (
       <PageContent>
-        <h1>Strong główna</h1>
+        <h1>About</h1>
       </PageContent>
     );
   }
 }
 
-export default Main;
+export default About;
