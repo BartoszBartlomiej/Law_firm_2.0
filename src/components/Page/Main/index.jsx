@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import PageContent from '../../Layout/PageContent';
 
 class Main extends Component {
   render() {
     return (
-      <div>
+      <PageContent>
         Main View
-      </div>
+      </PageContent>
     );
   }
 }
