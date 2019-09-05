@@ -23,3 +23,21 @@ strong,
 b {
   font-weight: 700;
 }
+
+a {
+  transition: 0.3s color;
+  text-decoration: none;
+
+  &:link {
+    color: $color-primary;
+  }
+
+  &:hover {
+    color: lighten($color-primary, 10%);
+  }
+
+  &:visited,
+  &:active {
+    color: $color-primary;
+  }
+}
