@@ -5,7 +5,7 @@ class Main extends Component {
     return (
       <div>
         Main View
-			</div>
+      </div>
     );
   }
 }

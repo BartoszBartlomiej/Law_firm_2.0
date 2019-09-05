@@ -19,10 +19,19 @@ module.exports = {
         "react"
     ],
     "rules": {
+        "semi": "error",
+        "react/prop-types": 0,
         "linebreak-style": 0,
+        "object-curly-newline": 0,
+        "react/destructuring-assignment": 1,
         "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
-        "allowIndentationTabs": 1,
+        "allowIndentationTabs": 0,
         'react/jsx-indent': 0, // Prettier.
         'react/jsx-indent-props': 0, // Prettier.
+        "no-tabs": [1, {"allowIndentationTabs": true}],
+        'no-trailing-spaces': ["error", { 
+            "ignoreComments": true,
+            "skipBlankLines": true,
+        }]
     }
 };

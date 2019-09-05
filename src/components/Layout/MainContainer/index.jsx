@@ -4,7 +4,15 @@ import Footer from '../Footer';
 import './MainContainer.scss';
 
 const MainContainer = (props) => {
-    return <main>{props.children}<Footer /></main>
-}
+  const { children } = props;
+  return (
+		<>
+		<main>
+			{children}
+			<Footer />
+		</main>
+		</>
+  );
+};
 
 export default MainContainer;
